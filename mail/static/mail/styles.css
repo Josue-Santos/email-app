@@ -1,0 +1,63 @@
+textarea {
+    min-height: 400px;
+}
+table{
+    width: 70%;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+td{
+    padding: 5px;
+}
+table:hover{
+    background-color: rgb(202, 235, 236);
+}
+td:nth-child(1){
+    font-weight: bold;
+}
+td:nth-child(2){
+    text-align:center;
+    margin-left:2px ;
+}
+td:last-child {
+    text-align: right;
+    color:rgb(184, 184, 169);
+}
+#single-email-sender{
+    text-align: left;
+    color: black;
+    font-weight:300;
+}
+#single-email-recipient{
+    text-align: left;
+    color: black;
+    font-weight:300;
+}
+#single-email-subject{
+    text-align: left;
+    color: black;
+    font-weight:300;
+}
+#single-email-timestamp{
+    text-align: left;
+    color: black;
+    font-weight:300;
+}
+#single-email-body{
+    text-align: left;
+    color: black;
+    font-weight:300;
+}
+#reply-button{
+    position: relative;
+    text-align: left;
+    left:-700px;
+    top:20px;
+}
+#unarchive-button{
+    position: relative;
+    text-align: left;
+    left:-50px;
+    top:-150px;
+}
